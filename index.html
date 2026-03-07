@@ -1,50 +1,207 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laundry Service</title>
-  <link rel="stylesheet" href="style.css">s
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Bella Vista- Authentic Italian Restaurant serving fresh pasta, wood- fired pizzas, and tarditional Italian cuisine in the heart of the city."></meta>
+    <title>Bella Vista Restaurant - Authentic Italian Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="header"> 
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1> Bella Vista</h1>
+                    <span class="tagline"> Authentic Italian Cuisine</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home"> Home </a></li>
+                    <li><a href="#menu"> Menu </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                </ul>
+            </nav>
 
-  <nav class="navbar">
-    <div class="logo">Logo</div>
+        </div>
 
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2> Welcome to Bella Vista</h2>
+                <p>Experience the authentic taste of Italy in the heart of the city.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn-btn-primary"> View Mneu</a>
+                    <a href="#contact" class="btn-btn-secondary">Make Reservation </a>
+            </div>
+        </section>
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title"> Our Menu</h2>
+                <p class="section-subtitle"> Discover our carefully crafted dishes.</p>
 
-    <button class="username-btn">Username</button>
-  </nav>
+                <div class="menu-category">
+                    <h3>Appetizers</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Bruschetta Italian</h4>
+                                <p> fresh tomatoes, basil, and mozzarella on toasted bread.</p>
+                            </div>
+                            <span class="price"> $12</span>
 
-  <section class="hero">
-    <div class="hero-left">
-      <h1>
-        Revitalize Your <br>
-        Clothes with Expert <br>
-        <span>Laundry Services!</span>
-      </h1>
+                        </div>
 
-      <p>
-        From premium dry cleaning to swift wash and fold, we
-        deliver care and convenience. Schedule a pickup and
-        rediscover the freshness of your clothes today!
-      </p>
+                    <div class="menu-category">
+                    <h3>Appetizers</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Antipasio Platter</h4>
+                                <p>Selection of cured meats, cheese and marrinated vegetables.</p>
+                            </div>
+                            <span class="price"> $18</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Bella Vista</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Bella Vista" (Italian/Spanish for "beautiful view") refers to several distinct locations and properties: a scenic city in Arkansas, a historic Philadelphia neighborhood, a luxurious resort in Mahabaleshwar, a boutique hotel in Panchkula, and a palace in Hyderabad  </p>
+                        <p>Key Locations and Properties:
+Bella Vista, Arkansas (USA): A city in Northwest Arkansas known for its seven lakes, seven golf courses, and extensive mountain biking trails.
+Bella Vista, Philadelphia (USA): A historic neighborhood in South Philadelphia, known for its Italian heritage and the Italian Market.
+Bella Vista Resort, Mahabaleshwar (India): A popular pet-free resort and spa in Maharashtra featuring panoramic views, a "Red Stone Wing" and proximity to nature.
+Welcomhotel by ITC Hotels, Bella Vista (Panchkula, India): A boutique luxury hotel in the foothills of the Himalayas, offering 49 rooms, a rooftop pool, and close proximity to Chandigarh.
+Bella Vista Palace (Hyderabad, India): A historic French-style royal palace built in 191</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/images1.jpg" alt="Restaurant interior">
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3> Get In Touch</h3>
+                        <div class="contact-item">
+                            <strong>Address:</strong>
+                            <p>123 Italian Street, City center,NY </p>
+                        </div>
+                          <div class="contact-item">
+                            <strong>Email:</strong>
+                            <p>info@bellavista.com</p>
 
-      <button class="cta-btn">Book a service today!</button>
-    </div>
+                        </div>
+                          <div class="contact-item">
+                            <strong>Address:</strong>
+                            <p>123 Italian Street, City center,NY </p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3> Make a Reservation</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="name" name="name" required>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Reservation Date:</label>
+                                <input type="date" id="date" name="date" required>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time:</label>
+                                <select id="time" name="time" required>
+                                <option value="">Select Time</option>
+                                <option value="18:00"> 6:00 PM</option>
+                                <option value="19:00"> 7:00 PM</option>
+                                <option value="20:00"> 8:00 PM</option>
+                                <option value="21:00"> 9:00 PM</option>
+                                <optio n value="22:00"> 10:00 PM</option>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Number of Guests:</label>
+                                <select id="guests" name="guests" required>
+                                <option value="">Select guests</option>
+                                <option value="1"> 1 Guests</option>
+                                <option value="2"> 2 Guests</option>
+                                <option value="3"> 3 Guests</option>
+                                <option value="4"> 4 Guests</option>
+                                <option value="5"> 5+ Guests</option>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Special Requests:</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Any Special dietary which is to be implemented should mention here"></textarea>
+                                
+                            </div>
+                            <button type="submit" class="btn-btn primary">Submit Reservation</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3> Bella Vista</h3>
+                    <p> Authentic Italian Cuisine - Experience the authentic taste of Italy in the heart of the city. </p>
+                </div>
 
-    <div class="hero-right">
-      <img src="Screenshot 2026-02-20 001857.png"
-           alt="Laundry Illustration">
-    </div>
-  </section>
+            </div>
+            <div class="footer-section">
+                <h4> Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4> Opening Hours</h4>
+                <p>Monday-Thursday : 11:00 AM</p>
+                <p>Friday-Saturday : 11:00 AM</p>
+                <p>Sunday : 12:00 PM - 9:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bella Vista Restaurant. All rights reserved.</p>
 
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 </html>
-
